@@ -1,0 +1,142 @@
+/* ----------------------------------------------
+	INLINE TEXT SEMANTICS
+	REF: MDN WEB DOCS
+	https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+---------------------------------------------- */
+
+a {
+	// @include links();
+	// text-transform: none;
+	color: $theme-primary;
+	font-weight: 700;
+
+	@include basic-transition(color);
+
+	@include on-event {
+		color: $black;
+	}
+}
+
+abbr {
+
+}
+
+b {
+
+}
+
+bdi {
+
+}
+
+bdo {
+
+}
+
+br {
+
+}
+
+cite {
+
+}
+
+code {
+
+}
+
+data {
+
+}
+
+dfn {
+
+}
+
+em {
+
+}
+
+i {
+
+}
+
+kbd {
+
+}
+
+mark {
+
+}
+
+q {
+
+}
+
+rb {
+
+}
+
+rp {
+
+}
+
+rt {
+
+}
+
+rtc {
+
+}
+
+ruby {
+
+}
+
+s {
+
+}
+
+samp {
+
+}
+
+small {
+
+}
+
+span {
+
+}
+
+strong {
+
+}
+
+sub {
+
+}
+
+sup {
+
+}
+
+time {
+
+}
+
+u {
+
+}
+
+var {
+
+}
+
+wbr {
+
+}
+
+.link {
+	@include links;
+}

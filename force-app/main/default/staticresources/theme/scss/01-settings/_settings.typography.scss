@@ -1,0 +1,98 @@
+/* ----------------------------------------------
+	TYPOGRAPHY - VARIABLES
+---------------------------------------------- */
+
+// Salesforce Sans Bold
+@include fontface(Salesforce Sans Bold, 'fonts/SalesforceSans/SalesforceSans-Bold', normal, 600);
+
+// Salesforce Sans Bold Italic
+@include fontface(Salesforce Sans Bold Italic, 'fonts/SalesforceSans/SalesforceSans-BoldItalic', italic, 400);
+
+// Salesforce Sans Book
+@include fontface(Salesforce Sans Book, 'fonts/SalesforceSans/SalesforceSans-Book', normal, 400);
+
+// Salesforce Sans Italic
+@include fontface(Salesforce Sans Italic, 'fonts/SalesforceSans/SalesforceSans-Italic', italic, 400);
+
+// Salesforce Sans Light
+@include fontface(Salesforce Sans Light, 'fonts/SalesforceSans/SalesforceSans-Light', normal, 300);
+
+// Salesforce Sans Light Italic
+@include fontface(Salesforce Sans Light Italic, 'fonts/SalesforceSans/SalesforceSans-LightItalic', italic, 300);
+
+// Salesforce Sans Regular
+@include fontface(Salesforce Sans Regular, 'fonts/SalesforceSans/SalesforceSans-Regular', normal, 400);
+
+// Salesforce Sans Semibold
+@include fontface(Salesforce Sans Semibold, 'fonts/SalesforceSans/SalesforceSans-Semibold', normal, 500);
+
+// Salesforce Sans Thin
+@include fontface(Salesforce Sans Thin, 'fonts/SalesforceSans/SalesforceSans-Thin', normal, 100);
+
+// Salesforce Sans Thin Italic
+@include fontface(Salesforce Sans Thin Italic, 'fonts/SalesforceSans/SalesforceSans-ThinItalic', italic, 100);
+
+// SASS TYPE REFACTOR
+$base-font-family: 'Salesforce Sans Regular', sans-serif;
+$base-font-family-sans: sans-serif;
+$base-font-family-serif: serif;
+$base-font-family-code: monospace;
+
+$base-font-size:   	16px;
+$base-line-height: 	1.42857143;
+$base-letter-spacing: 	0;
+
+$font-weight--bolder:	900;
+$font-weight--bold:	700;
+$font-weight--normal:	400;
+$font-weight--light:	300;
+$font-weight--lighter:	100;
+
+$h1-size: 2rem; // 32px
+$h2-size: 1.5rem; // 24px
+$h3-size: 1.17rem; // 18.72px
+$h4-size: 1rem; // 16px
+$h5-size: .83rem; // 13.28px
+$h6-size: .67rem; // 10.72px
+
+.salesforce__sans--bold {
+	font-family: 'Salesforce Sans Bold', Arial, sans-serif;
+	font-weight: 600;
+}
+
+.salesforce__sans--bold-italic {
+	font-family: 'Salesforce Sans Bold Italic', Arial, sans-serif;
+}
+
+.salesforce__sans--book {
+	font-family: 'Salesforce Sans Book', Arial, sans-serif;
+}
+
+.salesforce__sans--italic {
+	font-family: 'Salesforce Sans Italic', Arial, sans-serif;
+}
+
+.salesforce__sans--light {
+	font-family: 'Salesforce Sans Light', Arial, sans-serif;
+}
+
+.salesforce__sans--light-italic {
+	font-family: 'Salesforce Sans Light Italic', Arial, sans-serif;
+}
+
+.salesforce__sans--regular {
+	font-family: 'Salesforce Sans Regular', Arial, sans-serif;
+}
+
+.salesforce__sans--semibold {
+	font-family: 'Salesforce Sans Semibold', Arial, sans-serif;
+}
+
+.salesforce__sans--thin {
+	font-family: 'Salesforce Sans Thin', Arial, sans-serif;
+	font-weight: $font-weight--lighter;
+}
+
+.salesforce__sans--thin-italic {
+	font-family: 'Salesforce Sans Thin Italic', Arial, sans-serif;
+}

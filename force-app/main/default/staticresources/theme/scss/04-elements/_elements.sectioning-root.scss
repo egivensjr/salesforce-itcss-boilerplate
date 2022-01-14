@@ -1,0 +1,21 @@
+/* ----------------------------------------------
+	SECTIONING ROOT
+	REF: MDN WEB DOCS
+	https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+---------------------------------------------- */
+
+body {
+	overflow-x: hidden;
+	display: block;
+	box-sizing: border-box;
+	flex-direction: column;
+	min-height: 100vh;
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+	line-height: 1.42857143;
+	text-rendering: optimizeSpeed;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: $white;
+	color: $black;
+}

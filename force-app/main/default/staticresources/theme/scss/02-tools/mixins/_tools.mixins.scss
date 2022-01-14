@@ -1,0 +1,110 @@
+//	ANIMATIONS-TRANSITIONS
+@mixin basic-transition($properties: (all), $duration: $transition-duration, $delay: null, $easing: $easing) {
+	$value: null;
+
+	@each $prop in $properties {
+		$prop-value: append((), $prop, space);
+		$prop-value: append($prop-value, $duration, space);
+
+		@if $delay != null {
+			$prop-value: append($prop-value, $delay, space);
+		}
+
+		$prop-value: append($prop-value, $easing, space);
+
+		$value: append($value, $prop-value, comma);
+	}
+
+	transition: $value;
+}
+
+//  ON-EVENT
+//  Event wrapper
+//  @author Harry Roberts
+//  @param {Bool} $self [false] - Whether or not to include current selector
+//  @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
+@mixin on-event($self: false) {
+	@if $self {
+		&,
+		&:hover,
+		&:active,
+		&:focus {
+			@content;
+		}
+	}
+
+	@else {
+		&:hover,
+		&:active,
+		&:focus {
+			@content;
+		}
+	}
+}
+
+// GLOBAL LINKS
+@mixin links {
+	font-family: 'Helvetica Neue Medium';
+	color: $black;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0;
+	padding: 0 0 11px 0;
+	border-bottom: 1px solid $black;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;
+
+	&:hover {
+		color: $black;
+		text-decoration: none;
+		border-bottom: 1px solid transparent;
+	}
+}
+
+@mixin font-source-sans($font-family: false, $size: false, $color: false, $weight: false,  $lh: false) {
+	@if $font-family {
+		font-family: $font-family;
+	}
+
+	@if $size {
+		font-size: $size;
+	}
+
+	@if $clor {
+		color: $color;
+	}
+
+	@if $weight {
+		font-weight: $weight;
+	}
+
+	@if $lh {
+		line-height: $lh;
+	}
+}
+
+// UNSELECTABLE
+@mixin unselectable {
+	-webkit-touch-callout: none;
+	user-select: none;
+}
+
+//	PSEUDO
+//  When using ::before and ::after you'll always need these three, so we're saving two lines of code every time you use this.
+//  See below an example of using it without any arguments (You will also see this mixin used in some of our other mixins below too).
+//
+//	EXAMPLE	CODE:
+//  div::after {
+//  	@include pseudo;
+//  	top: -1rem; left: -1rem;
+//      width: 1rem; height: 1rem;
+//  }
+@mixin pseudo($display: block, $pos: absolute, $content: '') {
+	content: $content;
+	display: $display;
+	position: $pos;
+}

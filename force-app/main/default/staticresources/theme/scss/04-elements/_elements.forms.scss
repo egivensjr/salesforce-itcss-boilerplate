@@ -1,0 +1,159 @@
+/* ----------------------------------------------
+	FORMS
+	REF: MDN WEB DOCS
+	https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+---------------------------------------------- */
+
+button {
+
+}
+
+datalist {
+
+}
+
+fieldset {
+
+}
+
+form {
+
+}
+
+input {
+	&:hover {
+		cursor: pointer;
+	}
+
+	&:focus {
+		color: $dark-grey;
+	}
+
+	&::placeholder {
+		color: $dark-grey;
+	}
+
+	&[type='text'],
+	&[type='email'],
+	&[type='url'],
+	&[type='password'],
+	&[type='search'],
+	&[type='number'],
+	&[type='tel'],
+	&[type='range'],
+	&[type='date'],
+	&[type='month'],
+	&[type='week'],
+	&[type='time'],
+	&[type='datetime'],
+	&[type='datetime-local'],
+	&[type='color'] {
+		@include text-format(inherit, 14px, inherit, normal, $dark-grey);
+	}
+
+	&[type='text'],
+	&[type='email'],
+	&[type='url'],
+	&[type='password'],
+	&[type='search'],
+	&[type='number'],
+	&[type='tel'], {
+		cursor: text;
+	}
+
+	&[type='button'] {
+		@include input-button;
+	}
+
+	&[type='radio'] {
+		@include input-radio;
+	}
+
+	&[type='checkbox'] {
+		@include input-checkbox;
+	}
+
+	&[type='text'] {
+
+	}
+}
+
+label {
+
+}
+
+legend {
+
+}
+
+meter {
+
+}
+
+optgroup {
+
+}
+
+option {
+
+}
+
+output {
+
+}
+
+progress {
+
+}
+
+select {
+	color: $dark-grey;
+	line-height: 1.2;
+	padding: 8px;
+	margin: 0 0 15px 0;
+	min-width: 50px;
+	cursor: pointer;
+
+	// DOWN CAROT ICON
+	@include background(icon-arrow-down-secondary, svg, inherit, no-repeat, inherit, 25, 11);
+
+	display: inline-block;
+	-webkit-appearance: none;
+	background-position: right 15px center;
+
+	&:focus {
+		outline: none;
+		color: $dark-grey;
+	}
+
+	&::placeholder {
+		color: $dark-grey;
+	}
+
+	option {
+		color: $dark-grey;
+
+		&:checked {
+			background-color: white;
+			color: $black;
+			font-weight: 700;
+
+			&::before {
+				@include background(checkmark, svg, inherit, no-repeat, inherit, 0, 0);
+
+				fill: $black;
+				width: 13.121px;
+				height: 9.811px;
+			}
+		}
+
+		&:not(:checked) {
+			background-color: white;
+			color: $dark-grey;
+		}
+	}
+}
+
+textarea {
+
+}

@@ -1,0 +1,38 @@
+{
+	"name": "steelcase-stex-itcss-stylesheet",
+	"version": "1.1.0",
+	"description": "A simple ITCSS folder structure for Steelcase STEX store front.",
+	"main": "index.js",
+	"scripts": {
+    "stylelint": "npx stylelint scss/**/*.scss --fix",
+		"clean": "rimraf node_modules",
+		"build": "npm run stylelint && node-sass --include-path scss scss/app.scss ../css3/styles.css --output-style compressed",
+		"rebuild": "npm run clean && npm install && npm run build-css",
+		"watch": "nodemon -e scss -x \"npm run build\"",
+		"theme-deploy": "npm install && npm run build && npm run clean && sfdx force:source:deploy -m StaticResource:B2C_Theme"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"keywords": [],
+	"author": "Eddie E. Givens, Jr. <egivens@salesforce.com> (https://github.com/egivensjr)",
+	"license": "ISC",
+	"homepage": "",
+	"engines": {
+		"node": ">= 12"
+	},
+	"dependencies": {
+		"concurrently": "^6.3.0",
+		"node-sass": "^6.0.1",
+		"nodemon": "^2.0.6",
+		"normalize.css": "^8.0.1",
+		"postcss": "^8.4.5",
+		"postcss-scss": "^4.0.2",
+		"rimraf": "^3.0.2",
+		"sass-mq": "^4.0.2",
+		"stylelint": "^14.1.0",
+		"stylelint-scss": "^4.0.1"
+	},
+	"devDependencies": { }
+}

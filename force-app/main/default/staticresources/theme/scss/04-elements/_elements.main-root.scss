@@ -1,0 +1,21 @@
+/* ----------------------------------------------
+	MAIN ROOT
+	REF: MDN WEB DOCS
+	https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+---------------------------------------------- */
+html {
+	box-sizing: border-box;
+	line-height: $base-line-height;
+	scroll-behavior: smooth;
+	min-height: 100%;
+	display: block;
+	-webkit-font-smoothing: antialiased;
+}
+
+// Smooth scrolling IF user doesn't have a preference due to motion sensitivities
+@media screen and (prefers-reduced-motion: no-preference) {
+	html,
+	body {
+		scroll-behavior: smooth;
+	}
+}

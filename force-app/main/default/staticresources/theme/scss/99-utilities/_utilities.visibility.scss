@@ -1,0 +1,96 @@
+/* ----------------------------------------------
+	VISIBILITY
+---------------------------------------------- */
+
+.hide {
+	display: none !important;
+}
+
+.show {
+	display: block !important;
+}
+
+.hide {
+	&--desktop-large {
+		@include hideAtSizes($desktop-large);
+	}
+
+	&--desktop-small {
+		@include hideAtSizes($desktop-small);
+	}
+
+	&--desktop {
+		@include hideAtSizes($desktop-small, $desktop-large);
+	}
+
+	&--tablet {
+		@include hideAtSizes($tablet);
+	}
+
+	&--mobile {
+		@include hideAtSizes($mobile);
+	}
+}
+
+.desktop-large-view {
+	@include hideAtSizes($mobile, $tablet, $desktop-small);
+}
+
+.desktop-small-view {
+	@include hideAtSizes($mobile, $tablet, $desktop-large);
+
+	&--and-up {
+		@include hideAtSizes($mobile, $tablet);
+	}
+
+	&--and-down {
+		@include hideAtSizes($desktop-large);
+	}
+}
+
+.tablet-view {
+	@include hideAtSizes($mobile, $desktop-small, $desktop-large);
+
+	&--and-up {
+		@include hideAtSizes($mobile);
+	}
+
+	&--and-down {
+		@include hideAtSizes($desktop-small, $desktop-large);
+	}
+}
+
+.mobile-view {
+	@include hideAtSizes($tablet, $desktop-small, $desktop-large);
+}
+
+// FOR LEGACY MARKUP
+.desktop-view {
+	@include hideAtSizes($mobile, $tablet);
+}
+
+.tablet-view {
+	@include hideAtSizes($mobile, $desktop-small, $desktop-large);
+
+	&--and-up {
+		@include hideAtSizes($mobile);
+	}
+
+	&--and-down {
+		@include hideAtSizes($desktop-small, $desktop-large);
+	}
+}
+
+.mobile-view {
+	@include hideAtSizes($tablet, $desktop-small, $desktop-large);
+}
+
+.hidden-xs,
+.visible-sm {
+	@include hideAtSizes($mobile, $tablet);
+}
+
+.hidden-sm,
+.visible-xs {
+	@include hideAtSizes($desktop-small, $desktop-large);
+}

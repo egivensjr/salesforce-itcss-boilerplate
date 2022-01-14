@@ -1,0 +1,69 @@
+/* ----------------------------------------------
+	MIXINS - IMAGES
+---------------------------------------------- */
+
+//	BACKGROUND IMAGES
+// EXAMPLE CODE:
+//.icon-checkmark {
+//	@include background(icon-checkmark, svg, $light-grey--3, contain, no-repeat, 0, 0);
+//}
+@mixin background($img, $type, $color, $repeat, $size, $x, $y) {
+	content: ' ';
+	background: {
+		image: url('../stylesheet/img/#{$img}.#{$type}');
+		position: #{$x}px #{$y}px;
+		repeat: #{$repeat};
+		color: #{$color};
+		size: #{$size};
+	}
+}
+
+//	RESPONSIVE RATIO
+//  We use this for creating scalable elements (usually images / background images) that maintain a ratio.
+//  So to use this you could write the below and your div would have a ratio commonly utilised by video.
+//
+//	EXAMPLE	CODE:
+//  div {
+//  	@include responsive-ratio(16,9);
+//  }
+@mixin responsive-ratio($x,$y, $pseudo: false) {
+	$padding: unquote(( $y / $x ) * 100 + '%');
+
+	@if $pseudo {
+		&::before {
+			@include pseudo($pos: relative);
+
+			width: 100%;
+			padding-top: $padding;
+		}
+	}
+
+	@else {
+		padding-top: $padding;
+	}
+}
+
+//	CAROUSEL INNER IMAGE
+// EXAMPLE CODE:
+//.carousel-inner {
+//	> .item {
+//		img,
+//		video {
+//			@include carousel-inner-image(transparent, 100%, cover, 540);
+//		}
+//
+//		> a {
+//			img,
+//			video {
+//				@include carousel-inner-image(transparent, 100%, cover, 540);
+//			}
+//		}
+//	}
+//}
+@mixin carousel-inner-image($bg-color, $width-percentage, $object-fit, $max-height) {
+	background-color: #{$bg-color};
+	width: #{$width-percentage};
+	object-fit: #{$object-fit};
+	object-position: 50% 50%;
+	max-height: #{$max-height}px;
+}

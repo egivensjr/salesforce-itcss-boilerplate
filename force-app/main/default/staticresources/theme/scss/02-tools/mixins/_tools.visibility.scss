@@ -1,0 +1,35 @@
+/* ----------------------------------------------
+	MIXINS - VISIBILITY
+---------------------------------------------- */
+
+// SCREEN SIZE LABELS
+$mobile: 'mobile'; // 480px - MOBILE
+$tablet: 'tablet';	// 768px - TABLET
+$desktop-small: 'desktop-small'; // 992px - DESKTOP WIDE
+$desktop-large: 'desktop-large'; // 1188px - ULTRA WIDE
+
+// $mobile-min: 'mobile-min'; // 320px - MOBILE MIN
+// $mobile-max: 'mobile-max'; // 480px - MOBILE MAX
+// $tablet-min: 'tablet-min';	// 768px - TABLET MIN
+// $tablet-max: 'tablet-max';	// 1024px - TABLET MAX
+// $desktop-min: 'desktop-min'; // 1224PX - DESKTOP MIN
+// $large-screen-min: 'large-screen-min'; // 1824px LARGE SCREEN MIN
+
+//MAP OF SIZE QUERIES
+$size-queries: (
+	$mobile: '(max-width: '+$mobile+')',
+	$tablet: '(min-width: ' + ($tablet-min + 1) + ') and (max-width: ' + $tablet-max + ')',
+	$desktop-small: '(min-width: ' + ($desktop-min + 1) + ') and (max-width: ' + $large-screen-min + ')',
+	$desktop-large: '(min-width: ' + ($large-screen-min + 1) + ')'
+);
+
+//MIXIN FOR HIDING STUFF
+@mixin hideAtSizes($sizes...) {
+	@each $size in $sizes {
+		$query: map-get($size-queries, $size);
+
+		@media #{$query} {
+			display: none !important;
+		}
+	}
+}

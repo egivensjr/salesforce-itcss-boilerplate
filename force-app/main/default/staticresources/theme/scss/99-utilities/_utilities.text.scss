@@ -1,0 +1,39 @@
+/* ----------------------------------------------
+	TEXT
+---------------------------------------------- */
+
+.text-underline {
+	text-decoration: underline !important;
+}
+
+.text-strikethrough {
+	text-decoration: line-through !important;
+}
+
+.text-bold {
+	font-weight: 700 !important;
+}
+
+.text-normal {
+	font-weight: 400 !important;
+}
+
+.text-black {
+	color: $black;
+}
+
+.text-white {
+	color: $white;
+}
+
+.text-grey {
+	color: $dark-grey !important;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.text-right {
+	text-align: right !important;
+}

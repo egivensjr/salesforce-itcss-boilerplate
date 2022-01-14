@@ -1,0 +1,10 @@
+/* ----------------------------------------------
+	ASSET PATH
+---------------------------------------------- */
+
+$assetPath: '../theme/img';
+
+// FUNCTION - GET PATH TO ASSET
+@function get-path-to-assets($assetPath) {
+	@return $assetPath;
+}

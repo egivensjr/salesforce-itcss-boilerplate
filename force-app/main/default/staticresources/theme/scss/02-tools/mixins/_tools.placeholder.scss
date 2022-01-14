@@ -1,0 +1,25 @@
+/* ----------------------------------------------
+	MIXINS - GENERIC
+---------------------------------------------- */
+
+//	PLACEHOLDER - COLOR
+@mixin placeholder-color($color: $dark-grey) {
+	::-webkit-input-placeholder,
+	::-moz-placeholder,
+	::-ms-input-placeholder,
+	:-moz-placeholder,
+	:-ms-input-placeholder {
+		color: $color;
+	}
+}
+
+//	SELECTION
+@mixin selection {
+	::-moz-selection {
+		@content;
+	}
+
+	::selection {
+		@content;
+	}
+}

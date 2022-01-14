@@ -1,0 +1,26 @@
+/* ----------------------------------------------
+	MIXINS - BUTTONS
+---------------------------------------------- */
+
+//	BUTTON - BACKGROUND
+//	EXAMPLE CODE:
+//	.btn-green {
+//		@include button-bg(#2ecc71);
+//	}
+@mixin button-bg($bg) {
+	background-color: $bg;
+	border-color: $bg;
+	color: $white;
+	width: 100%;
+
+	&:hover,
+	&:focus {
+		background-color: $bg; // background: darken($bg, 8%);
+		transition: all 0.3s ease;
+		color: $white;
+	}
+
+	&:active {
+		background: $bg; // background:darken($bg, 25%);
+	}
+}

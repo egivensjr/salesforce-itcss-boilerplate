@@ -1,0 +1,4 @@
+**/*.js
+./scss/07-vendor/**/*.css
+./node_modules/normalize.css/normalize.css
+./scss/05-objects/objects.grid.scss

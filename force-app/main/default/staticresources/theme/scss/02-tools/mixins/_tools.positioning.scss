@@ -1,0 +1,93 @@
+/* ----------------------------------------------
+	MIXINS - POSITIONING
+---------------------------------------------- */
+
+//	SPACING - PADDING
+@mixin spacing-sides($right: true, $left: true) {
+	@if $right {
+		padding-right: $spacing-sides;
+	}
+
+	@if $left {
+		padding-left: $spacing-sides;
+	}
+
+	@include mq($from: tablet) {
+		@if $right {
+			padding-right: $spacing-sides\@tablet;
+		}
+
+		@if $left {
+			padding-left: $spacing-sides\@tablet;
+		}
+	}
+
+	@include mq($from: desktop) {
+		@if $right {
+			padding-right: $spacing-sides\@desktop;
+		}
+
+		@if $left {
+			padding-left: $spacing-sides\@desktop;
+		}
+	}
+}
+
+//	SPACING - MARGINS
+@mixin margin-sides($right: true, $left: true, $negative: false) {
+	$minus: if($negative, '-', '');
+
+	@if $right {
+		margin-right: #{$minus}$spacing-sides;
+	}
+
+	@if $left {
+		margin-left: #{$minus}$spacing-sides;
+	}
+
+	@include mq($from: tablet) {
+		@if $right {
+			margin-right: #{$minus}$spacing-sides\@tablet;
+		}
+
+		@if $left {
+			margin-left: #{$minus}$spacing-sides\@tablet;
+		}
+	}
+
+	@include mq($from: desktop) {
+		@if $right {
+			margin-right: #{$minus}$spacing-sides\@desktop;
+		}
+
+		@if $left {
+			margin-left: #{$minus}$spacing-sides\@desktop;
+		}
+	}
+}
+
+@mixin align($vertical: true, $horizontal: false, $position: relative) {
+	@if $position {
+		position: $position;
+	}
+
+	@if $vertical {
+		top: 50%;
+	}
+
+	@if $horizontal {
+		left: 50%;
+	}
+
+	@if $vertical and $horizontal {
+		transform: translateX(-50%) translateY(-50%);
+	}
+
+	@else if $vertical {
+		transform: translateY(-50%);
+	}
+
+	@else {
+		transform: translateX(-50%);
+	}
+}

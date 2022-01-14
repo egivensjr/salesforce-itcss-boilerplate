@@ -1,0 +1,22 @@
+/* ----------------------------------------------
+	POSITIONING
+---------------------------------------------- */
+
+.align-right {
+	float: right;
+}
+
+.align-left {
+	float: left;
+}
+
+// VERTICAL ALIGNMENT
+.v-center {
+	display: inline-block;
+	float: none;
+	vertical-align: middle;
+}
+
+.sticky {
+	position: sticky;
+}
