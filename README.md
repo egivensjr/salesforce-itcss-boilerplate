@@ -6,13 +6,13 @@ but also requires us to use a processor to generate css files from it. This firs
 on a day-to-day basis._
 
 ## Documentation
-1. [Bootstrap 3 (Cloud Craze) Support](https://github.com/egivensjr/salesforce-itcss-boilerplate/tree/main/force-app/main/default/staticresources/theme/docs/Bootstrap-3(Cloud-Craze)/README.md)
+1. [Bootstrap 3 (Cloud Craze) Support](https://github.com/egivensjr/salesforce-itcss-boilerplate/blob/main/force-app/main/default/staticresources/theme/docs/Bootstrap-3(Cloud-Craze)/README.md)
 2. IDE Setup
-   1. [IntelliJ](https://github.com/egivensjr/salesforce-itcss-boilerplate/tree/main/force-app/main/default/staticresources/theme/docs/IDE-Setup/IntelliJ/README.md)
-   2. [Visual Studio Code](https://github.com/egivensjr/salesforce-itcss-boilerplate/tree/main/force-app/main/default/staticresources/theme/docs/IDE-Setup/Visual-Studio-Code/README.md)
-3. [ITCSS Framework](https://github.com/egivensjr/salesforce-itcss-boilerplate/tree/main/force-app/main/default/staticresources/theme/docs/ITCSS-Framework/README.md)
-4. [Principles of writing consistent, idiomatic CSS](https://github.com/egivensjr/salesforce-itcss-boilerplate/tree/main/force-app/main/default/staticresources/theme/Principles-of-writing-consistent,-idiomatic-CSS/README.md)
-5. [Pull Request Templates](https://github.com/egivensjr/salesforce-itcss-boilerplate/tree/main/force-app/main/default/staticresources/theme/Pull-Request-TemplatesS/README.md)
+   1. [IntelliJ](https://github.com/egivensjr/salesforce-itcss-boilerplate/blob/main/force-app/main/default/staticresources/theme/docs/IDE-Setup/IntelliJ/README.md)
+   2. [Visual Studio Code](https://github.com/egivensjr/salesforce-itcss-boilerplate/blob/main/force-app/main/default/staticresources/theme/docs/IDE-Setup/Visual-Studio-Code/README.md)
+3. [ITCSS Framework](https://github.com/egivensjr/salesforce-itcss-boilerplate/blob/main/force-app/main/default/staticresources/theme/docs/ITCSS-Framework/README.md)
+4. [Principles of writing consistent, idiomatic CSS](https://github.com/egivensjr/salesforce-itcss-boilerplate/blob/main/force-app/main/default/staticresources/theme/Principles-of-writing-consistent,-idiomatic-CSS/README.md)
+5. [Pull Request Templates](https://github.com/egivensjr/salesforce-itcss-boilerplate/blob/main/force-app/main/default/staticresources/theme/Pull-Request-TemplatesS/README.md)
 
 ## Usage
 

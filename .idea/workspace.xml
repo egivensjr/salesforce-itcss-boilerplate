@@ -4,9 +4,6 @@
     <list default="true" id="c3071a65-4778-4fd6-9a91-2701d473a2ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/02-tools/_tools.asset-path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/02-tools/_tools.functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/02-tools/_tools.functions.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642202736293</updated>
       <workItem from="1642202738739" duration="2641000" />
-      <workItem from="1642205385582" duration="6348000" />
+      <workItem from="1642205385582" duration="7334000" />
     </task>
     <servers />
   </component>
