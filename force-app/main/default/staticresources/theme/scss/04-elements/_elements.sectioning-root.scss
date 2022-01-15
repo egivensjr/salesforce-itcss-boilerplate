@@ -12,7 +12,7 @@ body {
 	min-height: 100vh;
 	font-family: $base-font-family;
 	font-size: $base-font-size;
-	line-height: 1.42857143;
+	line-height: $base-line-height;
 	text-rendering: optimizeSpeed;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

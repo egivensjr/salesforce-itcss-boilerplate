@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3071a65-4778-4fd6-9a91-2701d473a2ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/Styleguide/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/.stylelintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/.stylelintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/Bootstrap 3 (Cloud Craze)/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/Bootstrap-3-(Cloud-Craze)/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/IDE Setup/IntelliJ/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/IDE-Setup/IntelliJ/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/IDE Setup/Visual Studio Code/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/IDE-Setup/Visual-Studio-Code/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/ITCSS Framework/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/ITCSS-Framework/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/Principles of writing consistent, idiomatic CSS/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/Principles-of-writing-consistent,-idiomatic-CSS/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/Pull Request Templates/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/Pull-Request-Templates/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/01-settings/_settings.colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/01-settings/_settings.colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/01-settings/_settings.typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/01-settings/_settings.typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/02-tools/_tools.functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/02-tools/_tools.functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/02-tools/_tools.mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/02-tools/_tools.mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/04-elements/_elements.sectioning-root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/04-elements/_elements.sectioning-root.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/_components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/_components.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/_elements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/_generic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/_generic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/_objects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/_objects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/_settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/_themes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/_themes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/_tools.scss" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/_tools.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/scss/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/styles.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="23i2lQsWjIUz7y7yg1wjoEx0Zsf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\egive\Code\salesforce-itcss-boilerplate\force-app\main\default\staticresources" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3071a65-4778-4fd6-9a91-2701d473a2ae" name="Changes" comment="" />
+      <created>1642202736293</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642202736293</updated>
+      <workItem from="1642202738739" duration="2641000" />
+      <workItem from="1642205385582" duration="1540000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

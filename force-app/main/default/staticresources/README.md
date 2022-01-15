@@ -5,6 +5,15 @@ language. [This gives us many powerful tools like Variables, Nesting, Partials, 
 but also requires us to use a processor to generate css files from it. This first section will explain how to use scss
 on a day-to-day basis._
 
+## Documentation
+1. [Bootstrap 3 (Cloud Craze) Support](https://github.com/egivensjr/salesforce-itcss-boilerplate/tree/main/force-app/main/default/staticresources/theme/docs/Bootstrap-3(Cloud-Craze)/README.md)
+2. IDE Setup
+   1. [IntelliJ](https://github.com/egivensjr/salesforce-itcss-boilerplate/tree/main/force-app/main/default/staticresources/theme/docs/IDE-Setup/IntelliJ/README.md)
+   2. [Visual Studio Code](https://github.com/egivensjr/salesforce-itcss-boilerplate/tree/main/force-app/main/default/staticresources/theme/docs/IDE-Setup/Visual-Studio-Code/README.md)
+3. [ITCSS Framework](https://github.com/egivensjr/salesforce-itcss-boilerplate/tree/main/force-app/main/default/staticresources/theme/docs/ITCSS-Framework/README.md)
+4. [Principles of writing consistent, idiomatic CSS](https://github.com/egivensjr/salesforce-itcss-boilerplate/tree/main/force-app/main/default/staticresources/theme/Principles-of-writing-consistent,-idiomatic-CSS/README.md)
+5. [Pull Request Templates](https://github.com/egivensjr/salesforce-itcss-boilerplate/tree/main/force-app/main/default/staticresources/theme/Pull-Request-TemplatesS/README.md)
+
 ## Usage
 
 _Need to make changes to styles and work on the Theme? This section will walk you through the commands to work with the
@@ -16,7 +25,7 @@ technologies._
 
 To work with the Themes, some working knowledge of using a terminal is required. Additionally, you must
 have [Node](https://nodejs.org/en/download/) installed, as well
-as [the Salesforce CLI](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm)
+as [the Salesforce CLI](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm).
 
 If you want to download the package with bash, run this command in your terminal:
 
@@ -49,9 +58,9 @@ to use._
 _Open a terminal to the stylesheet location for your project and theme. Some examples follow:_
 
 ```bash
-cd force-app/main/default/staticresources/theme # If using Visual Studio Code IDE
+cd force-app/main/default/staticresources # If using Visual Studio Code IDE
 
-cd src/staticresources/theme # If using IntelliJ IDE
+cd src/staticresources # If using IntelliJ IDE
 ```
 
 To compile the .css files, in the terminal, run:
@@ -63,8 +72,8 @@ To compile the .css files, in the terminal, run:
 _This runs a sequence of 3 commands:_
 
 1. ```bash npm install # installs node_modules folder ```
-2. ```bash npm run build # compiles all Scss changes to styles.css ```
-3. ```bash npm run clean # removes the `node_modules` folder for deployment ```
+2. ```bash npm run build # compiles all SCSS changes to styles.css ```
+3. ```bash sfdx force:source:deploy -m StaticResource:theme prepares for the deployment by deploying the theme folder```
 
 Notes:
 
@@ -133,8 +142,8 @@ request._
 3. Follow the [BEM (Block, Element, Modifier)](http://getbem.com/) naming and syntax convention when naming new classes:
    Syntax example:
     ```bash
-    .block__element--modifier
-   
+    .block__element--modifier { }
+
    .block {
       &__element {
         &--modifier {

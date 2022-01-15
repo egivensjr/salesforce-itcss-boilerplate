@@ -1,0 +1,4 @@
+./theme/*.js
+./node_modules/normalize.css/normalize.css
+./theme/scss/05-objects/objects.grid.scss
+./theme/scss/07-vendor/**/*.css

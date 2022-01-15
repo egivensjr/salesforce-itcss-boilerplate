@@ -3,7 +3,7 @@
 		"stylelint-scss"
 	],
 	"customSyntax": "postcss-scss",
-	"ignoreFiles": ["**/*.js"],
+	"ignoreFiles": ["./theme/*.js"],
 	"rules": {
 		"scss/at-rule-no-unknown": [
 			true,
