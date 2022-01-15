@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c3071a65-4778-4fd6-9a91-2701d473a2ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/force-app/main/default/staticresources/.stylelintrc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javascript-crash-course-for-beginners" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.selected.package.stylelint" value="C:\Users\egive\Code\salesforce-itcss-boilerplate\force-app\main\default\staticresources\node_modules\stylelint" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -48,7 +47,8 @@
       <option name="presentableId" value="Default" />
       <updated>1642202736293</updated>
       <workItem from="1642202738739" duration="2641000" />
-      <workItem from="1642205385582" duration="7334000" />
+      <workItem from="1642205385582" duration="7601000" />
+      <workItem from="1642225083935" duration="24000" />
     </task>
     <servers />
   </component>

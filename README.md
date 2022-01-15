@@ -1,5 +1,7 @@
 # Salesforce ITCSS Stylesheet Setup & Overview
 
+Developed and maintained by [Eddie E. Givens, Jr.](mailto:egivensjr@gmail.com)
+
 _The styles are written in SCSS. SCSS is a powerful preprocessor
 language. [This gives us many powerful tools like Variables, Nesting, Partials, and Mixins](https://sass-lang.com/guide)
 but also requires us to use a processor to generate css files from it. This first section will explain how to use SCSS
