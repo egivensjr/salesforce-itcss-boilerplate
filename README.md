@@ -1,8 +1,8 @@
 # Salesforce ITCSS Stylesheet Setup & Overview
 
-_Our styles are written in scss. Scss is a powerful preprocessor
+_The styles are written in SCSS. SCSS is a powerful preprocessor
 language. [This gives us many powerful tools like Variables, Nesting, Partials, and Mixins](https://sass-lang.com/guide)
-but also requires us to use a processor to generate css files from it. This first section will explain how to use scss
+but also requires us to use a processor to generate css files from it. This first section will explain how to use SCSS
 on a day-to-day basis._
 
 ## Documentation
@@ -77,8 +77,7 @@ _This runs a sequence of 3 commands:_
 
 Notes:
 
-- _You do not need to run these 3 commands. This is simply an explanation of what npm run prep-deploy is doing._
-- _This command does not deploy to a sandbox, it simply prepares for the deployment by compiling the css._
+- _You do not need to run these 3 commands. This is simply an explanation of what npm run theme-deploy is doing._
 
 ### Deploying to Salesforce
 
