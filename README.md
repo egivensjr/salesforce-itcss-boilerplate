@@ -8,7 +8,7 @@ but also requires us to use a processor to generate css files from it. This firs
 on a day-to-day basis._
 
 ## Documentation
-1. [Bootstrap 3 (Cloud Craze) Support](https://github.com/egivensjr/salesforce-itcss-boilerplate/blob/main/force-app/docs/Bootstrap-3(Cloud-Craze)/README.md)
+1. [Bootstrap 3 (Cloud Craze) Support](https://github.com/egivensjr/salesforce-itcss-boilerplate/blob/main/force-app/docs/Bootstrap-3-Cloud-Craze/README.md)
 2. IDE Setup
    1. [IntelliJ](https://github.com/egivensjr/salesforce-itcss-boilerplate/blob/main/force-app/docs/IDE-Setup/IntelliJ/README.md)
    2. [Visual Studio Code](https://github.com/egivensjr/salesforce-itcss-boilerplate/blob/main/force-app/docs/IDE-Setup/Visual-Studio-Code/README.md)

@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3071a65-4778-4fd6-9a91-2701d473a2ae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/Bootstrap-3-(Cloud-Craze)/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/docs/Bootstrap-3-(Cloud-Craze)/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/IDE-Setup/IntelliJ/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/docs/IDE-Setup/IntelliJ/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/IDE-Setup/Visual-Studio-Code/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/docs/IDE-Setup/Visual-Studio-Code/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/ITCSS-Framework/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/docs/ITCSS-Framework/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/Principles-of-writing-consistent,-idiomatic-CSS/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/docs/Principles-of-writing-consistent-idiomatic-CSS/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/Pull-Request-Templates/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/docs/Pull-Request-Templates/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/force-app/main/default/staticresources/theme/docs/Styleguide/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/force-app/docs/Styleguide/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +50,7 @@
       <workItem from="1642205385582" duration="7601000" />
       <workItem from="1642225083935" duration="24000" />
       <workItem from="1642266128307" duration="259000" />
-      <workItem from="1642270425223" duration="244000" />
+      <workItem from="1642270425223" duration="299000" />
     </task>
     <servers />
   </component>
