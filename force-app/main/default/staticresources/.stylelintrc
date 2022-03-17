@@ -1,81 +1,113 @@
 {
+	"extends": [
+		"stylelint-config-standard",
+		"stylelint-config-sass-guidelines",
+		"stylelint-config-recommended"
+	],
 	"plugins": [
 		"stylelint-scss"
 	],
 	"customSyntax": "postcss-scss",
-	"ignoreFiles": ["./theme/*.js"],
+	"ignoreFiles": ["**/*.js"],
 	"rules": {
-		"scss/at-rule-no-unknown": [
-			true,
-			{
+		"at-rule-no-unknown": [
+			true, {
 				"ignoreAtRules": [
 					"extend",
-					"ignore",
-					"function",
-					"if",
-					"each",
+					"keyframes",
 					"include",
-					"mixin",
+					"media",
 					"return",
+					"function",
 					"use"
 				]
 			}
 		],
-		"scss/selector-no-redundant-nesting-selector": true,
-		"color-no-invalid-hex": true,
-		"selector-pseudo-class-no-unknown": [
-			true,
-			{
-				"ignorePseudoClasses": ["global"]
-			}
+		"at-rule-allowed-list": [
+			"extend",
+			"keyframes",
+			"include",
+			"media",
+			"document",
+			"import",
+			"return",
+			"function",
+			"use"
 		],
-		"block-no-empty": null,
-		"comment-empty-line-before": [
-			"always",
-			{
-				"ignore": ["stylelint-commands", "after-comment"]
-			}
-		],
-		"max-empty-lines": 2,
-		"number-max-precision": [
-			4,
+		"selector-max-compound-selectors": [
+			3,
 			{
 				"severity": "warning"
 			}
 		],
-		"unit-allowed-list": ["rem","px","%","vh","vw","s","dppx", "deg"],
-		"indentation": "tab",
-		"color-hex-case": "upper",
-		"font-family-no-duplicate-names": true,
-		"font-weight-notation": [
-			"numeric",
-			{
-				"ignore": ["relative"]
-			}
-		],
-		"string-quotes": [
-			"single",
-			{
-				"message": "Use single quotes."
-			}
-		],
-		"function-url-quotes": "always",
-		"color-hex-length": "long",
-		"declaration-colon-newline-after": null,
-		"font-family-name-quotes": null,
-		"value-list-comma-newline-after": null,
-		"selector-class-pattern": [
-			"^[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$",
+		"selector-no-qualifying-type": [
+			true,
 			{
 				"severity": "warning",
-				"message": "Use BEM (.block__element--modifier) naming convention for class-names."
+				"ignore":  [
+					"attribute",
+					"class",
+					"id"
+				]
 			}
 		],
+		"selector-max-id": [
+			2,
+			{
+				"severity": "warning"
+			}
+		],
+		"selector-id-pattern": [
+			"^[A-Z][a-zA-Z0-9]+$",
+			{
+				"severity": "warning"
+			}
+		],
+		"selector-class-pattern": [
+			"^^[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$",
+			{
+				"severity": "warning",
+				"message": "Example: .block__element--modifier"
+			}
+		],
+		"no-duplicate-selectors": null,
+		"no-invalid-position-at-import-rule": null,
+		"no-descending-specificity": null,
+		"scss/at-extend-no-missing-placeholder": null,
+		"scss/at-import-partial-extension-blacklist": null,
+		"scss/dollar-variable-pattern": null,
 		"max-nesting-depth": [
 			3,
 			{
 				"severity": "warning"
 			}
-		]
+		],
+		"max-line-length": null,
+		"color-named": [
+			"always-where-possible",
+			{
+				"ignore": [
+					"inside-function"
+				]
+			}
+		],
+		"declaration-property-value-disallowed-list": null,
+		"declaration-block-no-duplicate-properties": true,
+		"font-family-no-missing-generic-family-keyword": true,
+		"block-no-empty": true,
+		"number-max-precision": 4,
+		"media-feature-name-no-unknown": [
+			true,
+			{
+				"ignoreMediaFeatureNames": "min-device-pixel-ratio"
+			}
+		],
+		"property-no-unknown": [
+			true,
+			{
+				"ignoreProperties": "grid-row-align"
+			}
+		],
+		"function-no-unknown": null
 	}
 }

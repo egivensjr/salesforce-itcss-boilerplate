@@ -4,7 +4,7 @@
 	"description": "A simple ITCSS folder structure for Salesforce Visualforce projects.",
 	"main": "index.js",
 	"scripts": {
-		"stylelint": "npx stylelint theme/scss/**/*.scss --fix",
+		"stylelint": "npx stylelint theme/scss/**/*.scss --quiet --fix",
 		"build": "npm run stylelint && node-sass --include-path scss theme/scss/app.scss theme/styles.css --output-style compressed",
 		"watch": "nodemon -e scss -x \"npm run build\"",
 		"theme-deploy": "npm install && npm run build && sfdx force:source:deploy -m StaticResource:theme"
@@ -24,12 +24,15 @@
 		"concurrently": "^6.3.0",
 		"node-sass": "^7.0.1",
 		"nodemon": "^2.0.6",
-		"normalize.css": "^8.0.1",
-		"postcss": "^8.4.5",
-		"postcss-scss": "^4.0.2",
-		"sass-mq": "^4.0.2",
-		"stylelint": "^14.1.0",
-		"stylelint-scss": "^4.0.1"
-	},
-	"devDependencies": {}
+    "normalize.css": "^8.0.1",
+    "postcss": "^8.4.5",
+    "postcss-scss": "^4.0.2",
+    "rimraf": "^3.0.2",
+    "sass-mq": "^4.0.2",
+    "stylelint": "^14.1.0",
+    "stylelint-config-recommended": "^7.0.0",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-scss": "^4.0.1"
+  }
 }
